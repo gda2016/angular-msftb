@@ -6,7 +6,9 @@
 	- [x] Commit 1 : Setup Application
 	- [x] Commit 2 : Create Register Route
 	- [x] Commit 3 : Create Authenticate, Profile, Validate Routes
-	- [x] commit 4 : Set Static Folder, Create Public Folder
+	- [x] Commit 4 : Set Static Folder, Create Public Folder
+	- [x] Commit 5 : Connect To MongoDB
+- [ ] [Step 3 : User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
 
 ## Step 1 :
 ## Step 2 :
@@ -37,6 +39,20 @@ $ nodemon
 - [CORS on ExpressJS](https://enable-cors.org/server_expressjs.html)
 - [cors npm](https://www.npmjs.com/package/cors)
 
-#### Commit 3 :
-
-#### Commit 4 :
+#### Commit 5 :
+##### Source :
+- [How to Install MongoDB on CentOS 7](https://www.liquidweb.com/kb/how-to-install-mongodb-on-centos-7/)
+```
+$ sudo systemctl status mongod
+$ sudo systemctl start mongod
+$ sudo lsof -iTCP -sTCP:LISTEN | grep mongo
+$ mongostat 
+```
+##### Create MongoDB
+```
+$ mongo
+> show dbs
+> use meanauthapp
+> db.users.save( {username: "gda"} )
+> db.users.find()
+```
