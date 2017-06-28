@@ -10,6 +10,8 @@
 	- [x] Commit 5 : Connect To MongoDB
 - [x] [Step 3 : User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
 	- [x] Commit 6 : Create User Schema (Uers Model)
+	- [x] Commit 7 : Register user by Postman
+- [] [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
 
 ## Step 1 :
 ## Step 2 :
@@ -63,4 +65,27 @@ $ mongo
 #### Commit 6 :
 ##### Source :
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+
+#### Commit 7 : 
+- [Postman](chrome://apps)
+	- POST
+	- Key : Content-type
+	- Value : application/json
+	- Body : 
+	```
+	{
+	"name":"John Doe",
+	"email":"john@gmail.com",
+	"username":"john",
+	"password":"123456"
+	}
+	```
+	- Send
+#### Mongo
+```
+$ mongo
+> show dbs
+> use meanauthapp
+> show collections
+> db.users.find().pretty()
 ```
