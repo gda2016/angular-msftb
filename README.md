@@ -11,11 +11,12 @@
 - [x] [Step 3 : User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
 	- [x] Commit  6 : Create User Schema (Uers Model)
 	- [x] Commit  7 : Register user by Postman
-- [] [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
+- [x] [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
 	- [x] Commit  8 : Export Passport module
 	- [x] Commit 10 : Setup Route post authenticate
 	- [x] Commit 11 : Exports comparePassword function to models user.js
-	- [ ] Commit 12 : Make a POST request by Postman
+	- [x] Commit 12 : Make a POST request by Postman
+	- [ ] Commit 13 : Make Prifile protected in route/users.js
 
 ## Step 1 :
 ## Step 2 :
@@ -72,6 +73,8 @@ $ mongo
 #### Commit 7 : 
 ##### Postman chrome://apps
 	- POST
+	- http://localhost:3000/users/register
+	- Headers
 	- Key : Content-type
 	- Value : application/json
 	- Body : 
@@ -92,9 +95,26 @@ $ mongo
 > show collections
 > db.users.find().pretty()
 ```
+# !Note: in app.js correct require('./config/passport'); but require('./config/passport')(pasport) is no;
 
 ## Step 4 : 
 ### [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
 #### Commit 8 :
 ##### Source :
  - [passport-jwt](https://www.npmjs.com/package/passport-jwt)
+
+#### Commit 12 :
+##### Postman chrome://apps
+	- POST
+	- http://localhost:3000/users/authenticate
+	- Headers
+	- Key : Content-type
+	- Value : application/json
+	- Body : 
+	```
+	{
+	"username":"john",
+	"password":"123456"
+	}
+	```
+	- Send
