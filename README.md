@@ -6,6 +6,7 @@
 	- [x] Commit 1 : Setup Application
 	- [x] Commit 2 : Create Register Route
 	- [x] Commit 3 : Create Authenticate, Profile, Validate Routes
+	- [x] commit 4 : Set Static Folder, Create Public Folder
 
 ## Step 1 :
 ## Step 2 :
@@ -37,3 +38,5 @@ $ nodemon
 - [cors npm](https://www.npmjs.com/package/cors)
 
 #### Commit 3 :
+
+#### Commit 4 :
