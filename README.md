@@ -4,7 +4,8 @@
 - [x] Step 1 : 
 - [x] [Step 2 : Express Setup & Routes](https://www.youtube.com/watch?v=DQ9pZ2NKXRo&t=85s)
 	- [x] Commit 1 : Setup Application
-	- [x] Commit 2 : Route Create
+	- [x] Commit 2 : Create Register Route
+	- [x] Commit 3 : Create Authenticate, Profile, Validate Routes
 
 ## Step 1 :
 ## Step 2 :
@@ -34,3 +35,5 @@ $ nodemon
 ##### Source :
 - [CORS on ExpressJS](https://enable-cors.org/server_expressjs.html)
 - [cors npm](https://www.npmjs.com/package/cors)
+
+#### Commit 3 :
