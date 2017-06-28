@@ -3,11 +3,14 @@
 
 - [x] Step 1 : 
 - [x] [Step 2 : Express Setup & Routes](https://www.youtube.com/watch?v=DQ9pZ2NKXRo&t=85s)
-	-[x]
+	- [x] Commit 1 : Setup Application
+	- [x] Commit 2 : Route Create
 
 ## Step 1 :
 ## Step 2 :
-### [Express Setup & Routes](https://www.youtube.com/watch?v=DQ9pZ2NKXRo&t=85s)
+### [Express Setup & Routes](https://www.youtube.com/
+watch?v=DQ9pZ2NKXRo&t=85s)
+#### Commit 1 :
 ```
 $ mkdir meanauthapp
 $ cd meanauthapp
@@ -26,3 +29,8 @@ $ npm install
 $ sudo npm install -g nodemon
 $ nodemon
 ```
+
+#### Commit 2 : 
+##### Source :
+- [CORS on ExpressJS](https://enable-cors.org/server_expressjs.html)
+- [cors npm](https://www.npmjs.com/package/cors)
