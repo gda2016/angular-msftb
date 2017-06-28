@@ -3,18 +3,19 @@
 
 - [x] Step 1 : 
 - [x] [Step 2 : Express Setup & Routes](https://www.youtube.com/watch?v=DQ9pZ2NKXRo&t=85s)
-	- [x] Commit 1 : Setup Application
-	- [x] Commit 2 : Create Register Route
-	- [x] Commit 3 : Create Authenticate, Profile, Validate Routes
-	- [x] Commit 4 : Set Static Folder, Create Public Folder
-	- [x] Commit 5 : Connect To MongoDB
+	- [x] Commit  1 : Setup Application
+	- [x] Commit  2 : Create Register Route
+	- [x] Commit  3 : Create Authenticate, Profile, Validate Routes
+	- [x] Commit  4 : Set Static Folder, Create Public Folder
+	- [x] Commit  5 : Connect To MongoDB
 - [x] [Step 3 : User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
-	- [x] Commit 6 : Create User Schema (Uers Model)
-	- [x] Commit 7 : Register user by Postman
+	- [x] Commit  6 : Create User Schema (Uers Model)
+	- [x] Commit  7 : Register user by Postman
 - [] [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
-	- [x] Commit 8 : Export Passport module
+	- [x] Commit  8 : Export Passport module
 	- [x] Commit 10 : Setup Route post authenticate
-	- [ ] Commit 11 : Create Compare Password function in models user.js
+	- [x] Commit 11 : Exports comparePassword function to models user.js
+	- [ ] Commit 12 : Make a POST request by Postman
 
 ## Step 1 :
 ## Step 2 :
