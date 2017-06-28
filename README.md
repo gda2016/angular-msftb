@@ -12,6 +12,7 @@
 	- [x] Commit 6 : Create User Schema (Uers Model)
 	- [x] Commit 7 : Register user by Postman
 - [] [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
+	- [x] Commit 8 : Export Passport module
 
 ## Step 1 :
 ## Step 2 :
@@ -60,14 +61,14 @@ $ mongo
 > db.users.find()
 ```
 
-## Step 2 :
-### [Step 3 : User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
+## Step 3 :
+### [User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
 #### Commit 6 :
 ##### Source :
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 
 #### Commit 7 : 
-- [Postman](chrome://apps)
+##### Postman chrome://apps
 	- POST
 	- Key : Content-type
 	- Value : application/json
@@ -81,7 +82,7 @@ $ mongo
 	}
 	```
 	- Send
-#### Mongo
+##### Mongo
 ```
 $ mongo
 > show dbs
@@ -89,3 +90,9 @@ $ mongo
 > show collections
 > db.users.find().pretty()
 ```
+
+## Step 4 : 
+### [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
+#### Commit 8 :
+##### Source :
+ - [passport-jwt](https://www.npmjs.com/package/passport-jwt)
