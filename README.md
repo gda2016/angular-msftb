@@ -8,7 +8,8 @@
 	- [x] Commit 3 : Create Authenticate, Profile, Validate Routes
 	- [x] Commit 4 : Set Static Folder, Create Public Folder
 	- [x] Commit 5 : Connect To MongoDB
-- [ ] [Step 3 : User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
+- [x] [Step 3 : User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
+	- [x] Commit 6 : Create User Schema (Uers Model)
 
 ## Step 1 :
 ## Step 2 :
@@ -55,4 +56,11 @@ $ mongo
 > use meanauthapp
 > db.users.save( {username: "gda"} )
 > db.users.find()
+```
+
+## Step 2 :
+### [Step 3 : User Model & Register](https://www.youtube.com/watch?v=1ZeDy2QI3OE)
+#### Commit 6 :
+##### Source :
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 ```
