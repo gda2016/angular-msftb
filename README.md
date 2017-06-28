@@ -13,11 +13,12 @@
 	- [x] Commit 7 : Register user by Postman
 - [] [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
 	- [x] Commit 8 : Export Passport module
+	- [x] Commit 10 : Setup Route post authenticate
+	- [ ] Commit 11 : Create Compare Password function in models user.js
 
 ## Step 1 :
 ## Step 2 :
-### [Express Setup & Routes](https://www.youtube.com/
-watch?v=DQ9pZ2NKXRo&t=85s)
+### [Express Setup & Routes](https://www.youtube.com/watch?v=DQ9pZ2NKXRo&t=85s)
 #### Commit 1 :
 ```
 $ mkdir meanauthapp
