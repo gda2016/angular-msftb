@@ -16,7 +16,8 @@
 	- [x] Commit 10 : Setup Route post authenticate
 	- [x] Commit 11 : Exports comparePassword function to models user.js
 	- [x] Commit 12 : Make a POST request by Postman
-	- [ ] Commit 13 : Make Prifile protected in route/users.js
+	- [x] Commit 13 : Make Prifile protected in route/users.js and GET user profile
+- [ ] [Step 5 : Angular 2 Components & Routes](https://www.youtube.com/watch?v=zrViDpWiNVE&t=21s)
 
 ## Step 1 :
 ## Step 2 :
@@ -95,7 +96,6 @@ $ mongo
 > show collections
 > db.users.find().pretty()
 ```
-# !Note: in app.js correct require('./config/passport'); but require('./config/passport')(pasport) is no;
 
 ## Step 4 : 
 ### [Step 4 : API Authentication and Token](https://www.youtube.com/watch?v=6pdFXmTfkeE)
@@ -118,3 +118,17 @@ $ mongo
 	}
 	```
 	- Send
+
+#### Commit 13 :
+##### Postman chrome://apps
+	- POST
+	- http://localhost:3000/users/profile
+	- Key : Authorization
+	- Value : insert hash from previous POST
+	```
+	JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwic2VsZWN0ZWQiOnt9LCJnZXR0ZXJzIjp7fSwiX2lkIjoiNTk1M2I0YTk2MGRmODMzNDZlMWU0MjVmIiwid2FzUG9wdWxhdGVkIjpmYWxzZSwiYWN0aXZlUGF0aHMiOnsicGF0aHMiOnsicGFzc3dvcmQiOiJpbml0IiwidXNlcm5hbWUiOiJpbml0IiwiZW1haWwiOiJpbml0IiwiX192IjoiaW5pdCIsIm5hbWUiOiJpbml0IiwiX2lkIjoiaW5pdCJ9LCJzdGF0ZXMiOnsiaWdub3JlIjp7fSwiZGVmYXVsdCI6e30sImluaXQiOnsiX192Ijp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwidXNlcm5hbWUiOnRydWUsImVtYWlsIjp0cnVlLCJuYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJwYXRoc1RvU2NvcGVzIjp7fSwiZW1pdHRlciI6eyJkb21haW4iOm51bGwsIl9ldmVudHMiOnt9LCJfZXZlbnRzQ291bnQiOjAsIl9tYXhMaXN0ZW5lcnMiOjB9fSwiaXNOZXciOmZhbHNlLCJfZG9jIjp7Il9fdiI6MCwicGFzc3dvcmQiOiIkMmEkMTAkdVQ2QWY1dmxab2ROU3NsR3M0MTJDdUphZE5XcUtDcWJGMHhmM2hVeXd6UWh2SVFVaTZHTWkiLCJ1c2VybmFtZSI6ImpvaG4iLCJlbWFpbCI6ImpvaG5AZ21haWwuY29tIiwibmFtZSI6IkpvaG4gRG9lIiwiX2lkIjoiNTk1M2I0YTk2MGRmODMzNDZlMWU0MjVmIn0sIiRpbml0Ijp0cnVlLCJpYXQiOjE0OTg3MDM2NTQsImV4cCI6MTQ5OTMwODQ1NH0.j6DzEmF5wNVe3MkfyAMGkk9SQmhyGvRxPwztsNmfgX4
+	```
+	- Send
+
+## Step 5 : 
+### [Step 5 : Angular 2 Components & Routes](https://www.youtube.com/watch?v=zrViDpWiNVE&t=21s)
