@@ -20,7 +20,8 @@
 - [x] [Step 5 : Angular 2 Components & Routes](https://www.youtube.com/watch?v=zrViDpWiNVE&t=21s)
 	- [x] Commit 14 : Prepaer Client installation
 	- [x] Commit 15 : Install Angular Client & and Create Components
-	- [ ] Commit 16 : Create a Router
+	- [x] Commit 16 : Create a Routers
+	- [ ] Commit 17 : Create Navbar by Bootstrap
 
 ## Part 1 : [GitHub](https://github.com/bradtraversy/nodeauthapp)
 ## Step 1 :
@@ -151,7 +152,7 @@ $ ng new client
  */
 $ nodemon
 ```
-###### [Client](https://github.com/angular/angular-cli)
+###### Client [Angular-cli](https://github.com/angular/angular-cli)
 ```
 $ cd /app/webapps/ng/meanauthapp/client
 $ ng serve
@@ -171,7 +172,7 @@ $ ng serve
 
 #### Commit 16 :
 #####  Create a Router
-
+###### [bootswatch](https://bootswatch.com/) Sandstone -> Download
 
 
 Angular is running in the development mode. Call enableProdMode() to enable the production mode.
