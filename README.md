@@ -26,7 +26,8 @@
 	- [x] Commit 18 : Create Home Jumbotron and three column
 	- [x] Commit 19 : Connect Register Component
 	- [x] Commit 20 : Validation, Create Services
-	- [ ] Commit 21 : Flash Messages
+	- [x] Commit 21 : Setup Flash Messages
+- [ ] [Step 7 : Auth Service & User Registration](https://www.youtube.com/watch?v=dFftMN32jyQ)
 
 ## Part 1 : [GitHub](https://github.com/bradtraversy/nodeauthapp)
 ## Step 1 :
@@ -213,6 +214,17 @@ function validateEmail(email) {
 $ cd /app/webapps/ng/meanauthapp/client
 $ ng serve
 ```
+
+#### Commit 21 : Flash Messages
+##### Source : [angular 2 flash mesaages](https://www.npmjs.com/package/angular2-flash-messages)
+```
+$ cd /app/webapps/ng/meanauthapp/client
+$ npm install angular2-flash-messages --save
+$ ng serve
+```
+
+
+
 
 
 Angular is running in the development mode. Call enableProdMode() to enable the production mode.
