@@ -17,7 +17,10 @@
 	- [x] Commit 11 : Exports comparePassword function to models user.js
 	- [x] Commit 12 : Make a POST request by Postman
 	- [x] Commit 13 : Make Prifile protected in route/users.js and GET user profile
-- [ ] [Step 5 : Angular 2 Components & Routes](https://www.youtube.com/watch?v=zrViDpWiNVE&t=21s)
+- [x] [Step 5 : Angular 2 Components & Routes](https://www.youtube.com/watch?v=zrViDpWiNVE&t=21s)
+	- [x] Commit 14 : Prepaer Client installation
+	- [x] Commit 15 : Install Angular Client & and Create Components
+	- [ ] Commit 16 : Create a Router
 
 ## Part 1 : [GitHub](https://github.com/bradtraversy/nodeauthapp)
 ## Step 1 :
@@ -133,3 +136,44 @@ $ mongo
 
 ## Step 5 : 
 ### [Step 5 : Angular 2 Components & Routes](https://www.youtube.com/watch?v=zrViDpWiNVE&t=21s)
+#### Commit 14 :
+##### Prepaer Client installation
+#### Commit 15 :
+##### Install angular Client
+###### Server
+```
+$ cd /app/webapps/ng/meanauthapp/
+$ sudo npm install -g angular-cli
+$ ng new client
+/*
+ angular-cli.json
+ "outDir": "../public",
+ */
+$ nodemon
+```
+###### [Client](https://github.com/angular/angular-cli)
+```
+$ cd /app/webapps/ng/meanauthapp/client
+$ ng serve
+// http://localhost:4200/
+$ mkdir -p src/app/components && cd src/app/components
+$ ng g component navbar
+// Check component navbar
+// app.component.html >> <app-navbar></app-navbar>
+$ ng serve
+$ ng g component login
+$ ng g component register
+$ ng g component home
+$ ng g component dashboard
+$ ng g component profile
+$ ng serve
+```
+
+#### Commit 16 :
+#####  Create a Router
+
+
+
+Angular is running in the development mode. Call enableProdMode() to enable the production mode.
+
+https://bootswatch.com/
