@@ -24,7 +24,8 @@
 	- [x] Commit 17 : Create Navbar by Bootstrap
 - [x] [Step 6 : Register Component, Validation & Flash Messages](https://www.youtube.com/watch?v=bxZAPoeMr7U)
 	- [x] Commit 18 : Create Home Jumbotron and three column
-	- [ ] Commit 19 :
+	- [x] Commit 19 : Connect Register Component
+	- [ ] Commit 20 : Validation Create Services
 
 ## Part 1 : [GitHub](https://github.com/bradtraversy/nodeauthapp)
 ## Step 1 :
@@ -180,6 +181,21 @@ $ ng serve
 #### Commit 17 :
 ##### Create Navbar by Bootstrap
 ###### [bootstrap](http://getbootstrap.com/getting-started/#examples) Get started-> Examples -> Bootstrap simple template
+
+## Step 5 : 
+###
+#### Commit 19 : Connect Register Component
+##### Check function onRegisterSubmit
+```
+// in register.component.ts
+	onRegisterSubmit() {
+		console.log(this.name);
+	}
+```
+
+
+
+
 
 
 Angular is running in the development mode. Call enableProdMode() to enable the production mode.
