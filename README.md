@@ -21,7 +21,8 @@
 	- [x] Commit 14 : Prepaer Client installation
 	- [x] Commit 15 : Install Angular Client & and Create Components
 	- [x] Commit 16 : Create a Routers
-	- [ ] Commit 17 : Create Navbar by Bootstrap
+	- [x] Commit 17 : Create Navbar by Bootstrap
+- [ ] [Step 6 : Register Component, Validation & Flash Messages](https://www.youtube.com/watch?v=bxZAPoeMr7U) : 
 
 ## Part 1 : [GitHub](https://github.com/bradtraversy/nodeauthapp)
 ## Step 1 :
@@ -171,8 +172,12 @@ $ ng serve
 ```
 
 #### Commit 16 :
-#####  Create a Router
+##### Create a Router
 ###### [bootswatch](https://bootswatch.com/) Sandstone -> Download
+
+#### Commit 17 :
+##### Create Navbar by Bootstrap
+###### [bootstrap](http://getbootstrap.com/getting-started/#examples) Get started-> Examples -> Bootstrap simple template
 
 
 Angular is running in the development mode. Call enableProdMode() to enable the production mode.
