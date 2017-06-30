@@ -19,6 +19,7 @@
 	- [x] Commit 13 : Make Prifile protected in route/users.js and GET user profile
 - [ ] [Step 5 : Angular 2 Components & Routes](https://www.youtube.com/watch?v=zrViDpWiNVE&t=21s)
 
+## Part 1 : [GitHub](https://github.com/bradtraversy/nodeauthapp)
 ## Step 1 :
 ## Step 2 :
 ### [Express Setup & Routes](https://www.youtube.com/watch?v=DQ9pZ2NKXRo&t=85s)
