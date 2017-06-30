@@ -22,7 +22,9 @@
 	- [x] Commit 15 : Install Angular Client & and Create Components
 	- [x] Commit 16 : Create a Routers
 	- [x] Commit 17 : Create Navbar by Bootstrap
-- [ ] [Step 6 : Register Component, Validation & Flash Messages](https://www.youtube.com/watch?v=bxZAPoeMr7U) : 
+- [x] [Step 6 : Register Component, Validation & Flash Messages](https://www.youtube.com/watch?v=bxZAPoeMr7U)
+	- [x] Commit 18 : Create Home Jumbotron and three column
+	- [ ] Commit 19 :
 
 ## Part 1 : [GitHub](https://github.com/bradtraversy/nodeauthapp)
 ## Step 1 :
