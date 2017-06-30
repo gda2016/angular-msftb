@@ -1,0 +1,26 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+  	"express": "*",
+  	"mongoose": "*",
+  	"bcryptjs": "*",
+  	"cors": "^2.4.1",
+  	"jsonwebtoken": "*",
+  	"body-parser": "*",
+  	"passport": "*",
+  	"passport-jwt": "*"
+  },
+  "repository": {
+  	"type": "git",
+  	"url": "remote add origin https://github.com/gda2016/angular-msftb.git"
+  },
+  "author": "Golosiy D.A.",
+  "license": "ISC"
+}

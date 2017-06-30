@@ -25,7 +25,8 @@
 - [x] [Step 6 : Register Component, Validation & Flash Messages](https://www.youtube.com/watch?v=bxZAPoeMr7U)
 	- [x] Commit 18 : Create Home Jumbotron and three column
 	- [x] Commit 19 : Connect Register Component
-	- [ ] Commit 20 : Validation Create Services
+	- [x] Commit 20 : Validation, Create Services
+	- [ ] Commit 21 : Flash Messages
 
 ## Part 1 : [GitHub](https://github.com/bradtraversy/nodeauthapp)
 ## Step 1 :
@@ -182,7 +183,7 @@ $ ng serve
 ##### Create Navbar by Bootstrap
 ###### [bootstrap](http://getbootstrap.com/getting-started/#examples) Get started-> Examples -> Bootstrap simple template
 
-## Step 5 : 
+## Step 6 : 
 ###
 #### Commit 19 : Connect Register Component
 ##### Check function onRegisterSubmit
@@ -193,9 +194,25 @@ $ ng serve
 	}
 ```
 
-
-
-
+#### Commit 20 : Validation, Create Services
+##### Create Services
+```
+$ cd ..
+$ mkdir services && cd Services
+$ ng g service validate
+```
+##### [JavaScript Validate Email REGX](https://stackoverflow.com/questions/46155/how-to-validate-email-address-in-javascript)
+```
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+```
+##### Check Validation
+```
+$ cd /app/webapps/ng/meanauthapp/client
+$ ng serve
+```
 
 
 Angular is running in the development mode. Call enableProdMode() to enable the production mode.
